@@ -1,0 +1,27 @@
+{
+  "name": "hiring-app-mern-stack",
+  "version": "1.0.0",
+  "description": "Hiring app using the MERN stack.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishangogna/hiring-app-mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishangogna/hiring-app-mern-stack/issues"
+  },
+  "homepage": "https://github.com/ishangogna/hiring-app-mern-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
