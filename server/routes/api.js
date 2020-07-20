@@ -23,7 +23,10 @@ router.put('/users/:id', function(req,res,next){
 });
 
 router.delete('/users/:id', function(req,res,next){
-    res.send({type : 'DELETE'})
+    //findByIdAndRemove finds an element from the collection by id and removes it.
+    //it returns a promise with the data it removed.
+    User.findByIdAndRemove({_id : req.params.id})
+        .then(user => res.send({user_removed : user}))
 });
 
 module.exports = router;
