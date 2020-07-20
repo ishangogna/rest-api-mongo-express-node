@@ -1,12 +1,20 @@
 const express = require('express');
-const router = express.Router()
+const router = express.Router();
 
-router.get('/',(req,res)=>{
+router.get('/', function(req,res){
     res.send({type : 'GET'})
 });
-router.post('/',(req,res)=>{
+
+router.post('/', function(req,res){
     res.send({type : 'POST'})
 });
 
+router.put('/', function(req,res){
+    res.send({type : 'PUT'})
+});
+
+router.delete('/', function(req,res){
+    res.send({type : 'DELETE'})
+});
 
 module.exports = router;
