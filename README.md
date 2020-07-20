@@ -1,2 +1,2 @@
-# hiring-app-mern-stack
-Hiring app using the MERN stack.
+# rest-api-mongo-express-node
+REST API using MongoDB in express.
